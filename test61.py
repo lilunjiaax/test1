@@ -39,7 +39,9 @@ for i,j in itertools.product(table_list, type_list):
 	data = {"query":{"bool":{"must":[{"term":{"table_type.keyword":i}},{"term":{"sheet_type.keyword":j}}],"must_not":[],"should":[]}},"from":0,"size":10,"sort":[],"aggs":{}}
 	# result = es.search(index=index_name, doc_type = 'd_type',body = data)['hits']['hits']
 	
-	print(i, j)
+	print('正在读取--{}--{}--'.format(i, j))
+	result = es.search(index=index_name, doc_type='d_type',body = data)['hits']['hits']
+
 
 
 
