@@ -1,6 +1,0 @@
-helloworld
-<<<<<<< HEAD
-'okokok test stash'  
-=======
-"asdfgzxcvbnm,."  
->>>>>>> dev
