@@ -2,16 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14137766-43a6-4509-9862-b7aa974441a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/stdout.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_stdout.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指offer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/合唱队形.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多继承中的mro.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/打字策略.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/argv.py" beforeDir="false" afterPath="$PROJECT_DIR$/argv.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/haodf.py" beforeDir="false" afterPath="$PROJECT_DIR$/haodf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianjia" beforeDir="false" afterPath="$PROJECT_DIR$/lianjia" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new 1" beforeDir="false" afterPath="$PROJECT_DIR$/new 1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python描述符.py" beforeDir="false" afterPath="$PROJECT_DIR$/python描述符.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_spider_lianjia.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_spider_lianjia.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_spider_lianjia_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_spider_lianjia_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_spider_taobao.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_spider_taobao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider_jinritoutiao.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_jinritoutiao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider_weibo.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_weibo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stdout.py" beforeDir="false" afterPath="$PROJECT_DIR$/stdout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test/.idea/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flask.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flask.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_selenium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_stdout.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_stdout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/剑指offer.py" beforeDir="false" afterPath="$PROJECT_DIR$/剑指offer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划.py" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/合唱队形.py" beforeDir="false" afterPath="$PROJECT_DIR$/合唱队形.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/多继承中的mro.py" beforeDir="false" afterPath="$PROJECT_DIR$/多继承中的mro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/打字策略.py" beforeDir="false" afterPath="$PROJECT_DIR$/打字策略.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/行列演奏.java" beforeDir="false" afterPath="$PROJECT_DIR$/行列演奏.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/装饰器.py" beforeDir="false" afterPath="$PROJECT_DIR$/装饰器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/贪心算法.py" beforeDir="false" afterPath="$PROJECT_DIR$/贪心算法.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/面试题/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题/means.py" beforeDir="false" afterPath="$PROJECT_DIR$/面试题/means.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题/pro1v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/面试题/pro1v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题/pro2v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/面试题/pro2v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题/problem1.pk" beforeDir="false" afterPath="$PROJECT_DIR$/面试题/problem1.pk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题/problem2.pk" beforeDir="false" afterPath="$PROJECT_DIR$/面试题/problem2.pk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题/代码文档.docx" beforeDir="false" afterPath="$PROJECT_DIR$/面试题/代码文档.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题/倒序输出链表第k项.py" beforeDir="false" afterPath="$PROJECT_DIR$/面试题/倒序输出链表第k项.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,94 +68,6 @@
     <SUITE FILE_PATH="coverage/test1$selenium_spider_taobao.coverage" NAME="selenium_spider_taobao Coverage Results" MODIFIED="1566658387687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test1$.coverage" NAME="打字策略 Coverage Results" MODIFIED="1566807067918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/装饰器.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_stdout.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1430">
-              <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stdout.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/打字策略.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-              <folding>
-                <element signature="e#425#431#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/haodf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/合唱队形.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-              <folding>
-                <element signature="e#500#517#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/多继承中的mro.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/剑指offer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="144" column="3" lean-forward="true" selection-start-line="144" selection-start-column="3" selection-end-line="144" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -134,53 +81,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/argv.py" root0="SKIP_INSPECTION" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/jindi_pdf_wind.py" />
-        <option value="$PROJECT_DIR$/test_jindi_2.py" />
-        <option value="$PROJECT_DIR$/test_jindi.py" />
-        <option value="$PROJECT_DIR$/argv.py" />
-        <option value="$PROJECT_DIR$/test_5_29.py" />
-        <option value="$PROJECT_DIR$/test_5_29_2.py" />
-        <option value="$PROJECT_DIR$/selenium_spider_taobao.py" />
-        <option value="$PROJECT_DIR$/stdout.py" />
-        <option value="$PROJECT_DIR$/test_stdout.py" />
-        <option value="$PROJECT_DIR$/合唱队形.py" />
-        <option value="$PROJECT_DIR$/打字策略.py" />
-        <option value="$PROJECT_DIR$/haodf.py" />
-        <option value="$PROJECT_DIR$/多继承中的mro.py" />
-        <option value="$PROJECT_DIR$/剑指offer.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="5" />
-    <option name="y" value="60" />
-    <option name="width" value="1090" />
-    <option name="height" value="1090" />
-  </component>
+  <component name="ProjectId" id="1Q2QiSKw2BVR2LaOsp5iR1QfXgP" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -371,7 +274,6 @@
         <item itemvalue="Python.多继承中的mro" />
         <item itemvalue="Python.haodf" />
         <item itemvalue="Python.打字策略" />
-        <item itemvalue="Python.合唱队形" />
       </list>
     </recent_temporary>
   </component>
@@ -396,11 +298,9 @@
       <workItem from="1566656902720" duration="522000" />
       <workItem from="1566657556940" duration="846000" />
       <workItem from="1566806559745" duration="13653000" />
+      <workItem from="1566966342896" duration="2451000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71997000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -411,58 +311,21 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14544237" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26407507" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42761394" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297587" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32841823" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.37131366" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.4852547" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14008042" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42627347" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.24661246" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297587" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32841823" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.39276138" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3297587" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -484,104 +347,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_jindi_2.py" />
-    <entry file="file://$PROJECT_DIR$/test_5_29_2.py" />
-    <entry file="file://$PROJECT_DIR$/test_5_29.py" />
-    <entry file="file://$PROJECT_DIR$/argv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="190" column="3" selection-start-line="190" selection-start-column="3" selection-end-line="190" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_jindi.py" />
-    <entry file="file://$PROJECT_DIR$/jindi_pdf_wind.py" />
-    <entry file="file://$PROJECT_DIR$/selenium_spider_taobao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#122#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/anaconda3/Lib/ssl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="97" column="23" lean-forward="true" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/装饰器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_stdout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stdout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/打字策略.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding>
-            <element signature="e#425#431#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/haodf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/合唱队形.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-          <folding>
-            <element signature="e#500#517#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/多继承中的mro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/剑指offer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="144" column="3" lean-forward="true" selection-start-line="144" selection-start-column="3" selection-end-line="144" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
