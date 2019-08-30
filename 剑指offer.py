@@ -976,44 +976,121 @@ HF作为牛客的资深元老,自然也准备了一些小游戏。
 例如，字符串"aaa"与模式"a.a"和"ab*ac*a"匹配，但是与"aa.a"和"ab*a"均不匹配
 """
 # -*- coding:utf-8 -*-
+# class Solution:
+#     # s, pattern都是字符串
+#     def match(self, s, pattern):
+#         s = [i for i in s]
+#         pattern = [i for i in pattern]
+#         length = len(pattern)
+#         i = 0
+#         flag = 0
+#         flag1 = 0
+#         while i < length:
+#             if i < length-1:
+#                 flag += 1
+#                 if pattern[i] != '.' and pattern[i] != '*' and pattern[i + 1] == '*':
+#                     # a*
+#                     if (not s) and (i == length-2):
+#                         return True
+#                     if not s:
+#                         break
+#                     if pattern[i] == s[0]:
+#                         s.pop(0)
+#                         continue
+#                     else:
+#                         # a*   b
+#                         i += 2
+#                         continue
+#             if i < length - 1:
+#                 flag += 1
+#                 if pattern[i] == '.' and pattern[i+1] == '*':
+#                     if s:
+#                         temp = s[0]
+#                         while s[0] == temp:
+#                             s.pop(0)
+#                             if not s:
+#                                 break
+#                     i += 2
+#             if s:
+#                 flag += 1
+#                 if i == length:
+#                     break
+#                 if pattern[i] == s[0]:
+#                     if s:
+#                         s.pop(0)
+#                         i += 1
+#                     continue
+#             if i < length:
+#                 if pattern[i] == '.':
+#                     if s:
+#                         flag += 1
+#                         s.pop(0)
+#                         i += 1
+#             if flag == flag1:
+#                 break
+#             flag1 = flag
+#
+#         if i == length and (not s):
+#             return True
+#         else:
+#             return False
+# so = Solution()
+# print(so.match("aaa", "ab*ac*a"))
+
+"""
+请实现一个函数用来判断字符串是否表示数值（包括整数和小数）。
+例如，字符串"+100","5e2","-123","3.1416"和"-1E-16"都表示数值。 
+但是"12e","1a3.14","1.2.3","+-5"和"12e+4.3"都不是。
+"""
+
+# -*- coding:utf-8 -*-
 class Solution:
-    # s, pattern都是字符串
-    def match(self, s, pattern):
-        s = [i for i in s]
-        pattern = [i for i in pattern]
-        i = 0
-        while i:
-            temp = s.pop()
-            if pattern[i] == '.' or temp == pattern[i]:
-                continue
-            if pattern[i] != '*' and pattern[i] != temp:
-                if pattern[i+1] == '*':
-                    pass
-
-
+    # s字符串
+    def isNumeric(self, s):
         # write code here
-        # for i in range(len(s)):
-        #     if not pattern:
-        #         return False
-        #     while 1:
-        #         temp = pattern.pop(0)
-        #         if (temp == s[i]) or (temp == '.'):
-        #             break
-        #         elif pattern.pop(0) == '*':
-        #             continue
-        #         else:
-        #             return False
-        # if pattern:
-        #     return False
-        # else:
-        #     return True
+        a_list = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
+        if 'e' in s or 'E' in s:
+            if 'e' in s:
+                left, right = s.split('e')
+            if 'E' in s:
+                if isinstance(s, list):
+                    return False
+                left, right = s.split('E')
+            if left == '' or right == '':
+                return False
+            if left[0] == '+' or left[0] == '-':
+                left = left[1:]
+            if right[0] == '+' or right[0] == '-':
+                right = right[1:]
+            if '.' in left:
+                left = left.split('.')
+                if len(left) > 2:
+                    return False
+                left = ''.join(left)
+            if '.' in right:
+                return False
+            for i in left:
+                if i not in a_list:
+                    return False
+            for i in right:
+                if i not in a_list:
+                    return False
+        else:
+            s = s.split('.')
+            if len(s) > 2:
+                return False
+            s = ''.join(s)
+            if s[0] == '+' or s[0] == '-':
+                s = s[1:]
+            for i in s:
+                if i not in a_list:
+                    return False
+
+        return True
+
 
 so = Solution()
-print(so.match("", ".*"))
-
-
-
-
+print(so.isNumeric("12e"))
 
 
 
