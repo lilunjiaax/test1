@@ -1044,57 +1044,215 @@ HF作为牛客的资深元老,自然也准备了一些小游戏。
 """
 
 # -*- coding:utf-8 -*-
-class Solution:
-    # s字符串
-    def isNumeric(self, s):
-        # write code here
-        a_list = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
-        if 'e' in s or 'E' in s:
-            if 'e' in s:
-                left, right = s.split('e')
-            if 'E' in s:
-                if isinstance(s, list):
-                    return False
-                left, right = s.split('E')
-            if left == '' or right == '':
-                return False
-            if left[0] == '+' or left[0] == '-':
-                left = left[1:]
-            if right[0] == '+' or right[0] == '-':
-                right = right[1:]
-            if '.' in left:
-                left = left.split('.')
-                if len(left) > 2:
-                    return False
-                left = ''.join(left)
-            if '.' in right:
-                return False
-            for i in left:
-                if i not in a_list:
-                    return False
-            for i in right:
-                if i not in a_list:
-                    return False
-        else:
-            s = s.split('.')
-            if len(s) > 2:
-                return False
-            s = ''.join(s)
-            if s[0] == '+' or s[0] == '-':
-                s = s[1:]
-            for i in s:
-                if i not in a_list:
-                    return False
+# class Solution:
+#     # s字符串
+#     def isNumeric(self, s):
+#         # write code here
+#         a_list = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
+#         if 'e' in s or 'E' in s:
+#             if 'e' in s:
+#                 left, right = s.split('e')
+#             if 'E' in s:
+#                 if isinstance(s, list):
+#                     return False
+#                 left, right = s.split('E')
+#             if left == '' or right == '':
+#                 return False
+#             if left[0] == '+' or left[0] == '-':
+#                 left = left[1:]
+#             if right[0] == '+' or right[0] == '-':
+#                 right = right[1:]
+#             if '.' in left:
+#                 left = left.split('.')
+#                 if len(left) > 2:
+#                     return False
+#                 left = ''.join(left)
+#             if '.' in right:
+#                 return False
+#             for i in left:
+#                 if i not in a_list:
+#                     return False
+#             for i in right:
+#                 if i not in a_list:
+#                     return False
+#         else:
+#             s = s.split('.')
+#             if len(s) > 2:
+#                 return False
+#             s = ''.join(s)
+#             if s[0] == '+' or s[0] == '-':
+#                 s = s[1:]
+#             for i in s:
+#                 if i not in a_list:
+#                     return False
+#
+#         return True
+# so = Solution()
+# print(so.isNumeric("12e"))
 
-        return True
+
+"""
+题目描述
+请实现一个函数用来找出字符流中第一个只出现一次的字符。
+例如，当从字符流中只读出前两个字符"go"时，
+第一个只出现一次的字符是"g"。
+当从该字符流中读出前六个字符“google"时，第一个只出现一次的字符是"l"。
+
+输出描述:
+如果当前字符流没有存在出现一次的字符，返回#字符。
+"""
+
+# -*- coding:utf-8 -*-
+# class Solution:
+#     # 返回对应char
+#     def __init__(self):
+#         self.s=''
+#         self.dict1={}
+#
+#     def FirstAppearingOnce(self):
+#         # write code here
+#         for i in self.s:
+#             if self.dict1[i]==1:
+#                 return i
+#         return '#'
+#
+#     def Insert(self, char):
+#         # write code here
+#         self.s=self.s+char
+#         if char in self.dict1:
+#             self.dict1[char]=self.dict1[char]+1
+#         else:
+#             self.dict1[char]=1
+
+
+"""
+题目描述
+给一个链表，若其中包含环，请找出该链表的环的入口结点，否则，输出null。
+"""
+# -*- coding:utf-8 -*-
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+# class Solution:
+#     def EntryNodeOfLoop(self, pHead):
+#         # write code here
+#         p1 = pHead
+#         p2 = pHead
+#         while p2:
+#             p1 = p1.next
+#             p2 = p2.next
+#             if not p2:
+#                 break
+#             p2 = p2.next
+#             if p1 == p2:
+#                 # 该链表有环
+#                 return self.find_node(pHead, p1)
+#
+#         return None
+#     def find_node(self, pHead, p):
+#         a_list = []
+#         while p:
+#             if p in a_list:
+#                 break
+#             a_list.append(p)
+#             p = p.next
+#         while pHead:
+#             if pHead in a_list:
+#                 return pHead
+#             pHead = pHead.next
+#
+#
+# p1 = ListNode(1)
+# p2 = ListNode(2)
+# p3 = ListNode(3)
+# p4 = ListNode(4)
+# p5 = ListNode(5)
+# p6 = ListNode(6)
+# p7 = ListNode(7)
+# p8 = ListNode(8)
+#
+# p1.next = p2
+# p2.next = p3
+# p3.next = p4
+# p4.next = p5
+# p5.next = p6
+# p6.next = p7
+# p7.next = p8
+# p8.next = p3
+#
+# so = Solution()
+# node = so.EntryNodeOfLoop(p1)
+# print(node.val)
+
+
+"""
+题目描述
+在一个排序的链表中，存在重复的结点，请删除该链表中重复的结点，重复的结点不保留，返回链表头指针。 
+例如，链表1->2->3->3->4->4->5 处理后为 1->2->5
+
+{1,1,1,1,1,1,1}
+"""
+
+# -*- coding:utf-8 -*-
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+class Solution:
+    def deleteDuplication(self, pHead):
+        # write code here
+        a_list = []
+        while pHead:
+            ne = pHead
+            flag = 0
+            if not pHead.next:
+                a_list.append(pHead)
+                break
+            while True:
+                ne = ne.next
+                if ne:
+                    if ne.val == pHead.val:
+                        flag = 1
+                        continue
+                    else:
+                        if flag == 0:
+                            a_list.append(pHead)
+                        pHead = ne
+                        break
+                else:
+                    pHead = ne
+                    break
+        if not a_list:
+            return None
+        phead = a_list[0]
+        root = phead
+        for i in a_list[1:]:
+            phead.next = i
+            phead = phead.next
+        phead.next = None
+        return root
+
+
+p1 = ListNode(1)
+p2 = ListNode(1)
+p3 = ListNode(1)
+p4 = ListNode(1)
+p5 = ListNode(1)
+p6 = ListNode(1)
+p7 = ListNode(1)
+
+
+p1.next = p2
+p2.next = p3
+p3.next = p4
+p4.next = p5
+p5.next = p6
+p6.next = p7
 
 
 so = Solution()
-print(so.isNumeric("12e"))
-
-
-
-
+so.deleteDuplication(p1)
 
 
 
