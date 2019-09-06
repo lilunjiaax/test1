@@ -1195,64 +1195,347 @@ HF作为牛客的资深元老,自然也准备了一些小游戏。
 """
 
 # -*- coding:utf-8 -*-
-class ListNode:
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+# class Solution:
+#     def deleteDuplication(self, pHead):
+#         # write code here
+#         a_list = []
+#         while pHead:
+#             ne = pHead
+#             flag = 0
+#             if not pHead.next:
+#                 a_list.append(pHead)
+#                 break
+#             while True:
+#                 ne = ne.next
+#                 if ne:
+#                     if ne.val == pHead.val:
+#                         flag = 1
+#                         continue
+#                     else:
+#                         if flag == 0:
+#                             a_list.append(pHead)
+#                         pHead = ne
+#                         break
+#                 else:
+#                     pHead = ne
+#                     break
+#         if not a_list:
+#             return None
+#         phead = a_list[0]
+#         root = phead
+#         for i in a_list[1:]:
+#             phead.next = i
+#             phead = phead.next
+#         phead.next = None
+#         return root
+#
+#
+# p1 = ListNode(1)
+# p2 = ListNode(1)
+# p3 = ListNode(1)
+# p4 = ListNode(1)
+# p5 = ListNode(1)
+# p6 = ListNode(1)
+# p7 = ListNode(1)
+#
+#
+# p1.next = p2
+# p2.next = p3
+# p3.next = p4
+# p4.next = p5
+# p5.next = p6
+# p6.next = p7
+#
+#
+# so = Solution()
+# so.deleteDuplication(p1)
+
+
+"""
+题目描述
+给定一个二叉树和其中的一个结点，请找出中序遍历顺序的下一个结点并且返回。
+注意，树中的结点不仅包含左右子结点，同时包含指向父结点的指针。
+
+
+将此结点在树中的位置分成几类来考虑，
+1. 有右孩子的结点，下次遍历肯定是右子树的左...
+2. 没有右孩子了，说明是叶子结点，要看是左叶子还是右叶子
+2.1 左叶子 输出父节点即可
+2.2 右叶子，一直向上回溯（注意边界条件）
+"""
+# -*- coding:utf-8 -*-
+# class TreeLinkNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+#         self.next = None
+# class Solution:
+#     def GetNext(self, pNode):
+#         # write code here
+#         if pNode.right:
+#             pNode = pNode.right
+#             while pNode.left:
+#                 pNode = pNode.left
+#             return pNode
+#         # 然后开始没有右孩子的情况
+#         if pNode.next:
+#             while pNode.next:
+#                 tmp = pNode.next
+#                 if tmp.left == pNode:
+#                     return tmp
+#                 pNode = tmp
+#
+#         return None
+
+"""
+题目描述
+请实现一个函数，用来判断一颗二叉树是不是对称的。注意，如果一个二叉树同此二叉树的镜像是同样的，定义其为对称的。
+
+注意点：
+二叉树的镜像翻转会导致内存里面给的那个二叉树变了，所以需要提前复制一份
+然后再递归进行比较，（在递归比较时，需要注意结束条件）
+"""
+# -*- coding:utf-8 -*-
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+# class Solution:
+#     def isSymmetrical(self, pRoot):
+#         # write code here
+#         if not pRoot:
+#             return True
+#         phead = self.muti(pRoot)
+#         self.Mirror(pRoot)
+#         if self.digui_judge(pRoot, phead):
+#             return True
+#         return False
+#     def digui_judge(self, p1, p2):
+#         if not p1 and not p2:
+#             return True
+#         if not p1 or not p2:
+#             return False
+#         return (p1.val == p2.val) and self.digui_judge(p1.left, p2.left) and self.digui_judge(p1.right, p2.right)
+#     def muti(self, pRoot):
+#         if pRoot:
+#             tmp1 = TreeNode(pRoot.val)
+#             self.digui_make(pRoot, tmp1)
+#         return tmp1
+#     def digui_make(self, pRoot, temp):
+#         if pRoot.left:
+#             tmp = TreeNode(pRoot.left.val)
+#
+#             temp.left = tmp
+#             self.digui_make(pRoot.left, temp.left)
+#         if pRoot.right:
+#             tmp = TreeNode(pRoot.right.val)
+#
+#             temp.right = tmp
+#             self.digui_make(pRoot.right, temp.right)
+#
+#     def Mirror(self, root):
+#         # write code here
+#         self.digui(root)
+#         return root
+#     def digui(self, root):
+#         if root:
+#             root.left, root.right = root.right, root.left
+#             self.digui(root.left)
+#             self.digui(root.right)
+#
+#
+# p1=TreeNode(8)
+# p2=TreeNode(6)
+# p3=TreeNode(9)
+# p4=TreeNode(5)
+# p5=TreeNode(7)
+# p6=TreeNode(7)
+# p7=TreeNode(5)
+#
+# p1.left = p2
+# p1.right = p3
+#
+# p2.left = p4
+# p2.right = p5
+#
+# p3.left = p6
+# p3.right = p7
+#
+# so = Solution()
+# print(so.isSymmetrical(p1))
+
+"""
+请实现一个函数按照之字形打印二叉树，即第一行按照从左到右的顺序打印，第二层按照从右至左的顺序打印，第三行按照从左到右的顺序打印，其他行以此类推。
+"""
+
+# -*- coding:utf-8 -*-
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+# class Solution:
+#     def __init__(self):
+#         self.stack1 = []
+#         self.result = {}
+#     def Print(self, pRoot):
+#         # write code here
+#         if not pRoot:
+#             return []
+#         pRoot.line = 0
+#         self.stack1.append(pRoot)
+#
+#         while self.stack1:
+#             tmp = self.stack1.pop(0)
+#             if tmp.line in self.result:
+#                 self.result[tmp.line].append(tmp.val)
+#             else:
+#                 self.result[tmp.line] = [tmp.val]
+#             if tmp.left:
+#                 tmp.left.line = tmp.line+1
+#                 self.stack1.append(tmp.left)
+#             if tmp.right:
+#                 tmp.right.line = tmp.line + 1
+#                 self.stack1.append(tmp.right)
+#         a_list = []
+#         for i in self.result:
+#             if i % 2 == 0:
+#                 a_list.append(self.result[i])
+#             else:
+#                 a_list.append(self.result[i][-1::-1])
+#         return a_list
+#
+# p1=TreeNode(1)
+# p2=TreeNode(2)
+# p3=TreeNode(3)
+# p4=TreeNode(4)
+# p5=TreeNode(5)
+# p6=TreeNode(6)
+# p7=TreeNode(7)
+# p8=TreeNode(8)
+#
+# p1.left = p2
+# p1.right = p3
+#
+# p2.left = p4
+# p2.right = p5
+#
+# p3.left = p6
+# p3.right = p7
+#
+# p4.left = p8
+#
+# so = Solution()
+# print(so.Print(p1))
+
+
+
+"""
+从上到下按层打印二叉树，同一层结点从左至右输出。每一层输出一行。
+"""
+# -*- coding:utf-8 -*-
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+# class Solution:
+#     # 返回二维列表[[1,2],[4,5]]
+#     def __init__(self):
+#         self.stack = []
+#         self.result = {}
+#     def Print(self, pRoot):
+#         # write code here
+#         if not pRoot:
+#             return []
+#         pRoot.line = 0
+#         self.stack.append(pRoot)
+#         while self.stack:
+#             tmp = self.stack.pop(0)
+#             if tmp.line in self.result:
+#                 self.result[tmp.line].append(tmp.val)
+#             else:
+#                 self.result[tmp.line] = [tmp.val]
+#             if tmp.left:
+#                 tmp.left.line = tmp.line+1
+#                 self.stack.append(tmp.left)
+#             if tmp.right:
+#                 tmp.right.line = tmp.line+1
+#                 self.stack.append(tmp.right)
+#
+#         a_list = []
+#         for i in self.result:
+#             a_list.append(self.result[i])
+#         return a_list
+#
+#
+# p1=TreeNode(1)
+# p2=TreeNode(2)
+# p3=TreeNode(3)
+# p4=TreeNode(4)
+# p5=TreeNode(5)
+# p6=TreeNode(6)
+# p7=TreeNode(7)
+# p8=TreeNode(8)
+#
+# p1.left = p2
+# p1.right = p3
+#
+# p2.left = p4
+# p2.right = p5
+#
+# p3.left = p6
+# p3.right = p7
+#
+# p4.left = p8
+#
+# so = Solution()
+# print(so.Print(p1))
+
+"""
+请实现两个函数，分别用来序列化和反序列化二叉树
+
+二叉树的序列化是指：把一棵二叉树按照某种遍历方式的结果以某种格式保存为字符串，
+从而使得内存中建立起来的二叉树可以持久保存。
+序列化可以基于先序、中序、后序、层序的二叉树遍历方式来进行修改，
+序列化的结果是一个字符串，序列化时通过 某种符号表示空节点（#），以 ！ 表示一个结点值的结束（value!）。
+
+二叉树的反序列化是指：根据某种遍历顺序得到的序列化字符串结果str，重构二叉树。
+"""
+# -*- coding:utf-8 -*-
+class TreeNode:
     def __init__(self, x):
         self.val = x
-        self.next = None
+        self.left = None
+        self.right = None
 class Solution:
-    def deleteDuplication(self, pHead):
+    def Serialize(self, root):
         # write code here
-        a_list = []
-        while pHead:
-            ne = pHead
-            flag = 0
-            if not pHead.next:
-                a_list.append(pHead)
-                break
-            while True:
-                ne = ne.next
-                if ne:
-                    if ne.val == pHead.val:
-                        flag = 1
-                        continue
-                    else:
-                        if flag == 0:
-                            a_list.append(pHead)
-                        pHead = ne
-                        break
-                else:
-                    pHead = ne
-                    break
-        if not a_list:
-            return None
-        phead = a_list[0]
-        root = phead
-        for i in a_list[1:]:
-            phead.next = i
-            phead = phead.next
-        phead.next = None
-        return root
+        # 采用层序遍历
+        pass
+
+    def Deserialize(self, s):
+        # write code here
+        pass
 
 
-p1 = ListNode(1)
-p2 = ListNode(1)
-p3 = ListNode(1)
-p4 = ListNode(1)
-p5 = ListNode(1)
-p6 = ListNode(1)
-p7 = ListNode(1)
 
 
-p1.next = p2
-p2.next = p3
-p3.next = p4
-p4.next = p5
-p5.next = p6
-p6.next = p7
 
 
-so = Solution()
-so.deleteDuplication(p1)
+
+
+
+
+
+
+
 
 
 
