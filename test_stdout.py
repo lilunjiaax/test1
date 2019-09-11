@@ -33,37 +33,42 @@ import sys
 no
 370 371
 """
-def judge(num):
-    a = num % 10
-    b = num // 10 % 10
-    c = num // 100
-    if num == a**3 + b**3 + c**3:
-        return True
-    else:
-        return False
+# def judge(num):
+#     a = num % 10
+#     b = num // 10 % 10
+#     c = num // 100
+#     if num == a**3 + b**3 + c**3:
+#         return True
+#     else:
+#         return False
+#
+# while 1:
+#     s = input()
+#     if s != '':
+#         min, max = [int(j) for j in s.split(' ')]
+#         a_list = []
+#         while min <= max:
+#             if judge(min):
+#                 a_list.append(min)
+#             min += 1
+#         if len(a_list) == 0:
+#             print('no')
+#         else:
+#             j = 0
+#             for i in a_list:
+#                 if j == 0:
+#                     sys.stdout.write(str(i))
+#                     j += 1
+#                 else:
+#                     sys.stdout.write(' ' + str(i))
+#             print('')
+#     else:
+#         break
 
-while 1:
-    s = input()
-    if s != '':
-        min, max = [int(j) for j in s.split(' ')]
-        a_list = []
-        while min <= max:
-            if judge(min):
-                a_list.append(min)
-            min += 1
-        if len(a_list) == 0:
-            print('no')
-        else:
-            j = 0
-            for i in a_list:
-                if j == 0:
-                    sys.stdout.write(str(i))
-                    j += 1
-                else:
-                    sys.stdout.write(' ' + str(i))
-            print('')
-    else:
-        break
+
+
+
+
 
 
 
