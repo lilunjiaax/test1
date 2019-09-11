@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14137766-43a6-4509-9862-b7aa974441a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bilibili.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/华为测试开发笔试.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/奇安信测试.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/小米测试开发.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/美团测试开发.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/认老乡.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stdout.py" beforeDir="false" afterPath="$PROJECT_DIR$/stdout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_stdout.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_stdout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuzi.c" beforeDir="false" afterPath="$PROJECT_DIR$/tuzi.c" afterDir="false" />
-    </list>
+    <list default="true" id="14137766-43a6-4509-9862-b7aa974441a7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +12,7 @@
     <SUITE FILE_PATH="coverage/test$test_5_29.coverage" NAME="test_5_29 Coverage Results" MODIFIED="1559120949870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test1$haodf.coverage" NAME="haodf Coverage Results" MODIFIED="1566811804878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test1$mro.coverage" NAME="多继承中的mro Coverage Results" MODIFIED="1566822518027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test1$python.coverage" NAME="python实现排序算法 Coverage Results" MODIFIED="1568218701171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$selenium_spider_taobao.coverage" NAME="selenium_spider_taobao Coverage Results" MODIFIED="1561553670176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test1$offer.coverage" NAME="剑指offer Coverage Results" MODIFIED="1567663032179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test1$selenium_spider_taobao.coverage" NAME="selenium_spider_taobao Coverage Results" MODIFIED="1566658387687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -137,11 +127,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/美团测试开发.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="-785">
+              <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python实现排序算法.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
             </state>
           </provider>
         </entry>
@@ -206,10 +205,11 @@
         <option value="$PROJECT_DIR$/华为测试开发笔试.py" />
         <option value="$PROJECT_DIR$/bilibili.py" />
         <option value="$PROJECT_DIR$/美团测试开发.py" />
+        <option value="$PROJECT_DIR$/python实现排序算法.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="617" />
     <option name="y" value="57" />
     <option name="width" value="1090" />
@@ -267,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.美团测试开发">
+  <component name="RunManager" selected="Python.python实现排序算法">
     <configuration name="广联达笔试题" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -510,20 +510,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="剑指offer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="python实现排序算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:\anaconda3\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/剑指offer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python实现排序算法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -588,19 +588,19 @@
     <list>
       <item itemvalue="Flask server.test1" />
       <item itemvalue="Python.selenium_get_newcoder" />
-      <item itemvalue="Python.剑指offer" />
       <item itemvalue="Python.广联达笔试题" />
       <item itemvalue="Python.bilibili" />
       <item itemvalue="Python tests.test_stdout.py" />
       <item itemvalue="Python.美团测试开发" />
+      <item itemvalue="Python.python实现排序算法" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.python实现排序算法" />
         <item itemvalue="Python.美团测试开发" />
         <item itemvalue="Python.bilibili" />
         <item itemvalue="Python.广联达笔试题" />
         <item itemvalue="Python.selenium_get_newcoder" />
-        <item itemvalue="Python.剑指offer" />
       </list>
     </recent_temporary>
   </component>
@@ -629,7 +629,7 @@
       <workItem from="1567853993706" duration="7531000" />
       <workItem from="1567946970019" duration="2600000" />
       <workItem from="1568026763749" duration="9422000" />
-      <workItem from="1568189558447" duration="4545000" />
+      <workItem from="1568189558447" duration="13838000" />
     </task>
     <servers />
   </component>
@@ -663,7 +663,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197413000" />
+    <option name="totallyTimeSpent" value="206706000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -675,25 +675,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18766756" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18766756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.1689008" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.18696883" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.38243628" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.26203966" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3297587" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.30428955" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32841823" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.26487252" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.51983005" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49932975" weight="0.43342775" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -957,8 +957,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/美团测试开发.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="-785">
+          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python实现排序算法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
         </state>
       </provider>
     </entry>
