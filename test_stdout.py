@@ -65,9 +65,89 @@ no
 #     else:
 #         break
 
+# import sys
+# if __name__ == "__main__":
+#     a_str = sys.stdin.readline().strip()
+#     a_list = a_str.split(",")
+#     resu_dict = []
+#     for i in a_list:
+#         if i[-1] in ['d', 'e']:
+#             if i in resu_dict:
+#                 resu_dict[i] += 1
+#             else:
+#                 resu_dict[i] = 1
+#     resu_str = '{'
+#     for i in resu_dict:
+#         resu_dict = resu_str + i + '=' + str(resu_dict[i]) + ', '
+#     print(resu_str[:-2]+'}')
 
 
 
+import sys
+if __name__ == "__main__":
+    a_str = sys.stdin.readline().strip()
+    a_list = [i for i in a_str]
+    a_len = len(a_list)
+    i = 0
+    resu_dict = {}
+    while i < a_len:
+        count = 1
+        while i+1 < a_len and (a_list[i+1] == a_list[i]):
+            count += 1
+            i += 1
+        if count == 1:
+            continue
+        else:
+            if a_list[i] in resu_dict:
+                resu_dict[a_list[i]] += count
+            else:
+                resu_dict[a_list[i]] = count
+    print(resu_dict)
+
+import sys
+if __name__ == "__main__":
+    a_str = sys.stdin.readline().strip()
+    a_list = [i for i in a_str]
+    a_len = len(a_list)
+    i = 0
+    resu_dict = {}
+    while i < a_len:
+        count = 1
+        while i+1 < a_len and (a_list[i+1] == a_list[i]):
+            count += 1
+            i += 1
+        if count == 1:
+            i += 1
+            continue
+        else:
+            if a_list[i] in resu_dict:
+                resu_dict[a_list[i]] += count
+            else:
+                resu_dict[a_list[i]] = count
+            i += 1
+    tmp = sorted(resu_dict.items(), key=lambda x:x[1], reverse=True)
+    for item in tmp:
+        print('{}:{}'.format(item[0], item[1]))
+
+# import sys
+# if __name__ == "__main__":
+#     a_str = sys.stdin.readline().strip()
+#     a_list = a_str.split(",")
+#     a_set = []
+#     for i in a_list:
+#         tmp = set([j for j in i])
+#         a_set.append(tmp)
+#     resu_dict = []
+#     for i in a_set:
+#         if i[-1] in ['d', 'e']:
+#             if i in resu_dict:
+#                 resu_dict[i] += 1
+#             else:
+#                 resu_dict[i] = 1
+#     resu_str = '{'
+#     for i in resu_dict:
+#         resu_dict = resu_str + i + '=' + str(resu_dict[i]) + ', '
+#     print(resu_str[:-2]+'}')
 
 
 

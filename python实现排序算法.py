@@ -240,20 +240,18 @@ def BucketSort(a_list, bucket_num=5):
         a_list.extend(i)
     return a_list
 
-
-if __name__ == "__main__":
-    a_list = [3, 4, 1, 10, 8, 5, 9, 11, 18, 13, 101]
-    # print(selectionSort(a_list))
-    # print(bubbleSort(a_list))
-    # print(insertSortSearch(a_list))
-    # print(quickSort(a_list))
-    # print(mergeSortRecursive(a_list))
-    # print(heapSort(a_list))
-    # print(radixSort(a_list))
-    # print(BucketSort(a_list))
-    print(shellSort(a_list))
-
-
+#
+# if __name__ == "__main__":
+#     a_list = [3, 4, 1, 10, 8, 5, 9, 11, 18, 13, 101]
+#     # print(selectionSort(a_list))
+#     # print(bubbleSort(a_list))
+#     # print(insertSortSearch(a_list))
+#     # print(quickSort(a_list))
+#     # print(mergeSortRecursive(a_list))
+#     # print(heapSort(a_list))
+#     # print(radixSort(a_list))
+#     # print(BucketSort(a_list))
+#     print(shellSort(a_list))
 
 
 
