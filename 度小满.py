@@ -25,40 +25,40 @@ n≤10000
 """
 
 
-
-while 1:
-    s = input().strip()
-    if s != '':
-        a, b, c = [int(i) for i in s.split()]
-        des = [a, b]
-        start = [0, 0]
-        node_list = []
-        for i in range(c):
-            s = input().strip()
-            node_list.append([int(i) for i in s.split()])
-        count = 0
-        while 1:
-            if start[0] == des[0] and start[1] == des[1]:
-                break
-            if des[0] > start[0]:
-                tmp_x = start[0] + 1
-            elif des[0] < start[0]:
-                tmp_x = start[0] - 1
-            else:
-                tmp_x = start[0]
-            if des[1] > start[1]:
-                tmp_y = start[1] + 1
-            elif des[1] < start[1]:
-                tmp_y = start[1] - 1
-            else:
-                tmp_y = start[1]
-            if [tmp_x, tmp_y] in node_list:
-
-
-
-        print(count)
-    else:
-        break
+#
+# while 1:
+#     s = input().strip()
+#     if s != '':
+#         a, b, c = [int(i) for i in s.split()]
+#         des = [a, b]
+#         start = [0, 0]
+#         node_list = []
+#         for i in range(c):
+#             s = input().strip()
+#             node_list.append([int(i) for i in s.split()])
+#         count = 0
+#         while 1:
+#             if start[0] == des[0] and start[1] == des[1]:
+#                 break
+#             if des[0] > start[0]:
+#                 tmp_x = start[0] + 1
+#             elif des[0] < start[0]:
+#                 tmp_x = start[0] - 1
+#             else:
+#                 tmp_x = start[0]
+#             if des[1] > start[1]:
+#                 tmp_y = start[1] + 1
+#             elif des[1] < start[1]:
+#                 tmp_y = start[1] - 1
+#             else:
+#                 tmp_y = start[1]
+#             if [tmp_x, tmp_y] in node_list:
+#
+#
+#
+#         print(count)
+#     else:
+#         break
 
 
 """
@@ -92,25 +92,47 @@ l 如果 a[i] < N，可以花费 C 的费用，将 a[i] 的值增加 1。
 从城市 2 前往城市 7。
 """
 
+# while 1:
+#     s = input().strip()
+#     if s != '':
+#         N, A, B, C = [int(i) for i in s.split()]
+#         s1 = input().strip()
+#         city_list = [0]
+#         city_list.extend([int(i) for i in s1.split()])
+#         count = 0
+#         while 1:
+#             if N-1:
+#                 pass
+#
+#
+#
+#
+#     else:
+#         break
+
+def func(k, a_list):
+    count = 0
+    k_list = a_list[k[0]-1:k[1]]
+    for i in k_list:
+        if k_list.count(i) == 1:
+            count += 1
+    return count
+
+
 while 1:
-    s = input().strip()
+    s= input().strip()
     if s != '':
-        N, A, B, C = [int(i) for i in s.split()]
-        s1 = input().strip()
-        city_list = [0]
-        city_list.extend([int(i) for i in s1.split()])
-        count = 0
-        while 1:
-            if N-1:
-                pass
+        n = int(s)
+        n_list = [int(i) for i in input().strip().split()]
+        m = int(input().strip())
+        a_list = []
+        for i in range(m):
+            a_list.append([int(i) for i in input().strip().split()])
 
-
-
-
+        for k in a_list:
+            print(func(k, n_list))
     else:
         break
-
-
 
 
 

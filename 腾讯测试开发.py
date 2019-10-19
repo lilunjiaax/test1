@@ -162,21 +162,27 @@
 #         print(tmp1)
 
 
+# import sys
+# a = sys.stdin.readline().strip()
+# b = sys.stdin.readline().strip()
+# a_len = len(a)
+# b_len = len(b)
+# def func1(i, b_len, a, b):
+#     try:
+#         if a.index(b) == 0:
+#             return True
+#     except:
+#         return False
+#     return False
+# count = 0
+# for i in range(a_len):
+#     if func1(i, b_len, a[i:], b):
+#         count += 1
+# print(count)
+
+
 import sys
 a, b = [int(i) for i in sys.stdin.readline().strip().split()]
-a_list = [int(i) for i in sys.stdin.readline().strip().split()]
-
-for i in range(b):
-    print(min([j for j in a_list if j > 0]))
-    for j in range(a):
-        if a_list[j] > 0:
-            a_list[j] -= 1
-
-
-
-
-
-
 
 
 
